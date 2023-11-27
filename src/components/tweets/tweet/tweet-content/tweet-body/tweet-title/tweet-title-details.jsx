@@ -8,6 +8,6 @@ function TweetTitleDetails(userMail, tweetDate) {
         <span>{tweetDate}</span>
     </div>
   )
-}
+};
 
 export default TweetTitleDetails;
