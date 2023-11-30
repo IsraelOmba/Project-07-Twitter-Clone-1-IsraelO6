@@ -1,5 +1,5 @@
 import React from 'react';
-import TweetAction from './tweet-action';
+import TweetAction from './tweet-actions/tweet-action.jsx';
  
 import comment from '../../../../images/comment.png';
 import retweet from '../../../../images/retweet.png';

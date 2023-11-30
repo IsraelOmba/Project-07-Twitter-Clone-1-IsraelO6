@@ -12,3 +12,4 @@ function Tweet (myAvatarImage, valuePropsTweetAuthor, valuePropsUserMail, valueP
     
   );
 };
+export default Tweet;

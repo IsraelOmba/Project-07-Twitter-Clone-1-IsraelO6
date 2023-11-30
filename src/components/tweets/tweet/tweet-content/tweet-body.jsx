@@ -1,6 +1,4 @@
 import React from 'react';
-import React from './tweet-body/tweet-text';
-import React from './tweet-body/tweet-image';
 import TweetImage from './tweet-body/tweet-image';
 import TweetTitle from './tweet-body/tweet-title';
 import TweetText from './tweet-body/tweet-text';
