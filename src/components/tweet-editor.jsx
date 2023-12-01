@@ -1,6 +1,6 @@
 import React from 'react';
 import Avatar from './tweet-editor/avatar.jsx';
-import TweetEditorForm from './tweet-editor/tweet-editor-form';
+import TweetEditorForm from './tweet-editor/tweet-editor-form.jsx';
 
 function TweetEditor() {
   return (

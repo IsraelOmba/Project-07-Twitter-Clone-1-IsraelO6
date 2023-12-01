@@ -1,10 +1,10 @@
 import React from 'react';
 
 function TweetImage(TweetImage) {
-
+  const image = {TweetImage};
     return (
         <div className='tweet-image'>
-            <p>{TweetImage}</p> 
+            <p>image</p> 
         </div>
     );
 };

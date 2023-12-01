@@ -1,6 +1,6 @@
 import React from 'react';
 import TweetEditorInput from './tweet-editor-form/tweet-editor-input.jsx';
-import TweetEditorButtons from './tweet-editor-form/tweet-editor-buttons';
+import TweetEditorButtons from './tweet-editor-form/tweet-editor-buttons.jsx';
 
 function TweetEditorForm() {
 
