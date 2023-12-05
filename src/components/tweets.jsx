@@ -53,21 +53,3 @@ function Tweets(){
 };
 
 export default Tweets;
-
-
-// <>
-//   <div>
-//   {myTweets.map((tweet, index) => (
-//       <Tweet
-//         key={index}
-//         myAvatarImage={tweet.avatar}
-//         valuePropsTweetAuthor={tweet.author}
-//         valuePropsUserMail={tweet.mail}
-//         valuePropsTweetDate={tweet.date}
-//         valuePropsTweetText={tweet.text}
-//         valuePropsTweetImage={tweet.image}
-//       />
-//     ))}
-//   </div>
-
-// </>

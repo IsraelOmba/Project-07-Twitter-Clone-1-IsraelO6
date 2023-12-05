@@ -15,10 +15,10 @@ function TweetActions() {
   
   return (
     <div className='tweet-actions'>
-      <TweetAction iconAction={comment} altIcon='comment'  count={countComment} />
+      <TweetAction iconAction={comment} altIcon='comment' count={countComment} />
       <TweetAction iconAction={retweet} altIcon='retweet' count={countRetweet} />
-      <TweetAction iconAction={like} altIcon='like' count={countLike} />
-      <TweetAction iconAction={share} altIcon='sharing' count={countShare} />
+      <TweetAction iconAction={like} altIcon='like'  count={countLike} />
+      <TweetAction iconAction={share} altIcon='sharing' />
     </div>
   );
 };

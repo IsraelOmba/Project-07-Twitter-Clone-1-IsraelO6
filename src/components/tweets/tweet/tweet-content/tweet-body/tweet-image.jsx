@@ -15,15 +15,3 @@ function TweetImage({tweetImage}) {
 }
 
 export default TweetImage;
-
-// import React from 'react';
-
-// function ImageDisplay() {
-//   return (
-//     <div>
-//       <img src="./image3.png" alt="Image 3" />
-//     </div>
-//   );
-// }
-
-// export default ImageDisplay;
