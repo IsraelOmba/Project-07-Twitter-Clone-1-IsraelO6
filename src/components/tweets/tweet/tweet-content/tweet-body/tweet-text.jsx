@@ -1,10 +1,10 @@
 import React from 'react';
 
-function TweetText(tweetText) {
+function TweetText({tweetText}) {
 
     return (
         <div className='tweet-text'>
-            <p>tweetText</p> 
+            <p> {tweetText} </p> 
         </div>
     );
 };

@@ -4,7 +4,7 @@ import TweetTitle from './tweet-body/tweet-title';
 import TweetText from './tweet-body/tweet-text';
 
 
-function TweetBody(valueTweetAuthor,valueUserMail, valueTweetDate, myTweetText, myTweetImage) {
+function TweetBody({valueTweetAuthor,valueUserMail, valueTweetDate, myTweetText, myTweetImage}) {
 
     return(
         <div className='tweet-body'>

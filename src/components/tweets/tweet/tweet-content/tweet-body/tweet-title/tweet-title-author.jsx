@@ -1,10 +1,9 @@
 import React from 'react';
 
-function TweetTitleAuthor(tweetAuthor) {
-  const author = {tweetAuthor};
+function TweetTitleAuthor({tweetAuthor}) {
   return (
     <div className="tweet-title-author">
-        <span> author </span>
+        <span> {tweetAuthor} </span>
     </div>
   )
 }

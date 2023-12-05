@@ -1,11 +1,11 @@
 import React from 'react';
 
-function TweetTitleDetails(userMail, tweetDate) {
+function TweetTitleDetails({userMail, tweetDate}) {
   return (
     <div className="tweet-title-details">
-        <span>userMail</span>
+        <span> {userMail} </span>
         <span>.</span>
-        <span>tweetDate</span>
+        <span> {tweetDate} </span>
     </div>
   )
 };

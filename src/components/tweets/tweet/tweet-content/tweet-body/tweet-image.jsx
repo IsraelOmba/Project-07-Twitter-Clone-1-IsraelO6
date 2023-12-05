@@ -1,12 +1,15 @@
 import React from 'react';
 
-function TweetImage(TweetImage) {
-  const image = {TweetImage};
+function TweetImage({TweetImage}) {
+  if (TweetImage) {
     return (
-        <div className='tweet-image'>
-            <p>image</p> 
-        </div>
+      <div className='tweet-image'>
+        <img src={TweetImage} alt='label'/>
+      </div>
     );
-};
+  } else {
+    return null;
+  }
+}
 
 export default TweetImage;

@@ -2,7 +2,7 @@ import React from 'react';
 import TweetActions from './tweet-content/tweet-actions.jsx';
 import TweetBody from './tweet-content/tweet-body.jsx';
 
-function TweetContent(myValueTweetAuthor, myValueUserMail, myValueTweetDate, myValueTweetText, myValueTweetImage) {
+function TweetContent({myValueTweetAuthor, myValueUserMail, myValueTweetDate, myValueTweetText, myValueTweetImage}) {
 
   return (
     <div className='tweet-content'>

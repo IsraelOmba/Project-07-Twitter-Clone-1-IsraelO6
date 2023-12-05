@@ -8,7 +8,6 @@ import share from '../../../../images/share.png';
 
 
 function TweetActions() {
-  const altTable = ['comment', 'retweet', 'like', 'sharing'];
   let countComment = 19;
   let countRetweet = 48;
   let countLike = 482;
@@ -16,10 +15,10 @@ function TweetActions() {
   
   return (
     <div className='tweet-actions'>
-      <TweetAction iconAction={comment} altIcon={altTable[0]} count={countComment} />
-      <TweetAction iconAction={retweet} altIcon={altTable[1]} count={countRetweet} />
-      <TweetAction iconAction={like} altIcon={altTable[2]} count={countLike} />
-      <TweetAction iconAction={share} altIcon={altTable[3]} count={countShare} />
+      <TweetAction iconAction={comment} altIcon='comment'  count={countComment} />
+      <TweetAction iconAction={retweet} altIcon='retweet' count={countRetweet} />
+      <TweetAction iconAction={like} altIcon='like' count={countLike} />
+      <TweetAction iconAction={share} altIcon='sharing' count={countShare} />
     </div>
   );
 };

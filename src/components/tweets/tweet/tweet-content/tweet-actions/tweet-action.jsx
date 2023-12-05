@@ -1,6 +1,6 @@
 import React from 'react';
 
-function TweetAction(iconAction, altIcon, count) {
+function TweetAction({iconAction, altIcon, count}) {
 
   return (
     <div className='tweet-action'>
