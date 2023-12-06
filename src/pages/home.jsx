@@ -14,10 +14,6 @@ function Home() {
       </main>
     </>
     
-    
-    
-    
-    
   );
 }
 
