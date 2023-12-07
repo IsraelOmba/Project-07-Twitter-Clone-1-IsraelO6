@@ -25,11 +25,11 @@ export default TrendsForYou;
 
 
 
-<div className="trending-items">
-  <div className="trending-item">
-    <span>Tendance en Turquie</span>
-    <span>#SQUiD</span>
-    <span>2,066 Tweets</span>
-    <i className="three-dots-icon"></i>
-  </div>
-  {/* 
+// <div className="trending-items">
+//   <div className="trending-item">
+//     <span>Tendance en Turquie</span>
+//     <span>#SQUiD</span>
+//     <span>2,066 Tweets</span>
+//     <i className="three-dots-icon"></i>
+//   </div>
+ 

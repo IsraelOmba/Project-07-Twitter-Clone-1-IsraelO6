@@ -1,6 +1,6 @@
 import React from 'react';
 import TweetAvatar from '../tweets/tweet/tweet-avatar.jsx';
-import TweetTitleAuthor from '../tweets/tweet/tweet-content/tweet-body/tweet-title/tweet-title-authors.jsx';
+import TweetTitleAuthor from '../tweets/tweet/tweet-content/tweet-body/tweet-title/tweet-title-author.jsx';
 
 function ElementFollow({myAvatarImage, mytweetAuthor, iconLogoTwitter, profilMail}) {
   return (

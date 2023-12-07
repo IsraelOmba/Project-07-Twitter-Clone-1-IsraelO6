@@ -1,6 +1,9 @@
 import React from 'react';
 import SettingsIcon from '@mui/icons-material/Settings';
 import TrendsForYou from '../components/trends-for-you.jsx';
+import SearchBar from '../components/search-bar.jsx';
+import WhoToFollow from '../components/whoToFollow.jsx';
+
 
 
 function Trends() {
@@ -8,7 +11,7 @@ function Trends() {
     <div className="trends">
       
       <div className="search-bar">
-        <input type="text" defaultValue="Rechercher sur Twitter" />
+        <SearchBar />
       </div>
       
       <div className="trends-for-you">
@@ -42,3 +45,5 @@ function Trends() {
     </div>
   );
 }
+
+export default Trends;

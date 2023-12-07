@@ -1,6 +1,7 @@
 import React from 'react';
 import Avatar from '../components/tweet-editor/avatar.jsx';
-import TweetTitleAuthor from '../components/tweets/tweet/tweet-content/tweet-body/tweet-title/tweet-title-authors.jsx';
+  import TweetTitleAuthor from './tweets/tweet/tweet-content/tweet-body/tweet-title/tweet-title-author.jsx';
+
 import HorizonIcon from './horizonIcon.jsx';
 
 function LowProfil({profilMail, mytweetAuthor}) {
